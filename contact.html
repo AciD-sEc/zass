@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Replica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 10%;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-family: serif;
+            color: lightgray;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .get-started {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .contact-section {
+            width: 60%;
+            margin: 50px auto;
+            text-align: left;
+        }
+
+        .contact-section h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .contact-info {
+            font-size: 18px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 16px;
+            width: 100%;
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            width: 150px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Programs</a></li>
+            <li><a href="#">Digital Products</a></li>
+            <li><a href="#">Free Resources</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="get-started">Get Started</a>
+</header>
+
+<section class="contact-section">
+    <h1>Contact Me.</h1>
+    <p class="contact-info">
+        <a href="AciD-sEc@proton.me">AciD-sEc@proton.me</a><br>
+        +91 8145277901
+    </p>
+
+    <form action="#" method="post">
+        <label for="name">Name (required)</label>
+        <input type="text" id="name" name="name" placeholder="First Name" required>
+        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+
+        <label for="email">Email (required)</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+
+        <label for="message">Message (required)</label>
+        <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
