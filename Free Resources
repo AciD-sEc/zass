@@ -35,5 +35,21 @@
             </nav>
         </div>
     </header>
+ <div>
+    <p>There are countless free resources available for anyone wanting to delve into the world of programming. Platforms
+      like Codecademy and FreeCodeCamp offer comprehensive courses across various languages, while GitHub provides a
+      treasure trove of open-source projects to learn from and contribute to. YouTube channels such as The Coding Train
+      and freeCodeCamp's own channel offer tutorials and coding challenges. For deeper dives, sites like Coursera and
+      edX provide university-level courses for free, often taught by industry experts. And don't forget online forums
+      and communities like Stack Overflow and Reddit, where you can ask questions, share knowledge, and find support
+      from fellow coders worldwide. Ready to get coding? 💻🚀</p>
+      <h1>Free Programming Resources</h1>
+    <ul>
+        <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a>: Offers comprehensive courses across various languages and projects.</li>
+        <li><a href="https://www.programiz.com/">Programiz</a>: Provides beginner-friendly tutorials and examples for multiple programming languages.</li>
+        <li><a href="https://skillcrush.com/blog/64-online-resources-to-learn-to-code-for-free/">Skillcrush's Guide</a>: A massive guide with over 100 online resources for learning to code for free.</li>
+        <li><a href="https://dev.to/getvm/mastering-systems-a-collection-of-free-programming-resources-2031">Mastering Systems</a>: A collection of free programming resources covering various topics like JavaScript, CSS, and data structures.</li>
+    </ul>
+  </div>
 </body>
 </html>
