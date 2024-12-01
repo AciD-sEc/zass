@@ -67,4 +67,4 @@ If you have any questions or need further assistance, you can reach me at:
 
 ---
 
-Thank you for checking out my project! Happy hacking! 🚀
+Thank you for checking out my project! Happy hacking! 🚀 okey
