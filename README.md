@@ -24,7 +24,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/AciD-sEc/zass.git
+    git clone https://github.com/Tanay-Haldar/Tanay-Haldar.git
     cd your-repo-name
     ```
 
@@ -63,7 +63,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Contact
 If you have any questions or need further assistance, you can reach me at:
 - **Email**: haldarpolly2003@gmail.com
-- **GitHub**: AciD-sEc
+- **GitHub**: [AciD-sEc]
 
 ---
 
